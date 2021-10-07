@@ -1,0 +1,90 @@
+2
+[20:30] NIVALDO PUHLER
+    Pensar em casos de teste para essa história
+​[20:35] BEATRICE DA SILVA FERNANDES
+    
+ações: Adicione a foto do aluno
+adicione e-mail do aluno
+adicione número de telefone do aluno
+adicione número de matrícula do aluno
+adicione nome do aluno
+adicione turma do aluno
+
+
+resultado:
+salvar informações
+------------------
+NÚMERO DE MATRICULA, NOME, TURMA E TELEFONE DEVEM SER OBRIGATORIOS
+
+
+
+​[20:35] BEATRICE DA SILVA FERNANDES
+    assim?
+​[20:36] BEATRICE DA SILVA FERNANDES
+    ok
+​[20:42] CLEITON DE OLIVEIRA LEMES
+    s
+​[20:42] MELKIZEDEK MULLER
+    to vendo
+​[20:42] DANIELLI TAINARA BORTOLETTO ZIMERMANN
+    Sim
+​[20:44] MATEUS LAURENTINO DE ANDRADE
+    mas, o contato ali, não seria o e-mail e o telefone?
+​[20:46] FABIO VALENTE DIAS
+    Tem como  por exemplo no Resultado: Ao passar o botão do Mouse na foto, deverá aparecer o e-mail e telefone do aluno?
+​[20:56] NIVALDO PUHLER
+    
+Ação 1:
+1) Preencha o campo e-mail com um e-mail válido aluno
+2) Preencha o campo telefone com um telefone válido aluno
+3) Preencha o campo nome do aluno
+4) Preencha o campo CPF do aluno
+5) Clique em salvar
+
+Resultado esperado:
+O Aluno deve ser cadastrado no banco de dados
+
+Ação 2:
+1) Entrar no perfil de um aluno já cadastrado
+2) Clicar em adicionar foto
+3) Selecionar uma foto
+4) Clique em salvar
+Resultado esperado
+Deve ser adiocionado ao perfil do aluno a foto selecionada.
+Ação 3:
+1) Preencha o campo e-mail com um e-mail válido aluno
+2) Preencha o campo telefone com um telefone válido aluno
+3) Preencha o campo nome do aluno
+4) Preencha o campo CPF do aluno com um CPF de um aluno já cadastrado.
+5) Clique em salvar
+Resultado esperado:
+O sistema deve apresentar a mensagem informando que o aluno já está cadastrado.
+
+Ação 4:
+1) Preencha o campo nome do aluno
+2) Preencha o campo CPF do aluno
+3) Clique em salvar
+Resultado esperado:
+O sistema deve perguntar ao usuário se deseja que o aluno seja salvo sem os dados de contato.
+Ação 5:
+1) Preencha o campo nome do aluno
+2) Preencha o campo CPF do aluno
+3) Clique em salvar
+4) Escolha a opção prosseguir o cadastro sem os contatos
+Resultado esperado:
+O sistema deve armazenar os dados do aluno com os dados que foram informados.
+Ação 6:
+1) Preencha o campo nome do aluno
+2) Preencha o campo CPF do aluno
+3) Clique em salvar
+4) Escolha a opção voltar e preencher os dados
+Resultado esperado:
+O sistema deve manter o usuário na tela de cadastro, sem salvar o aluno no banco.
+Ação 7:
+1) Preencha o campo nome do aluno
+2) Preencha o campo e-mail com um e-mail válido aluno
+3) Preencha o campo telefone com um telefone válido aluno
+2) Clicar em salvar
+Resultado esperado:
+O sistema deve informar que não foi preenchido o campo CPF do aluno.
+<https://teams.microsoft.com/l/message/19:OOwOd47VOkPvpOPHUt3516p1X7CIjGeDJnndjutJ7a81@thread.tacv2/1633563015713?tenantId=0917fe10-56db-44bf-b1c5-31061ab21cf9&amp;groupId=9fd4dfc4-343e-41a8-855d-3c323149841f&amp;parentMessageId=1633556955437&amp;teamName=JP - Testes e Manutenção de Sistemas&amp;channelName=Geral&amp;createdTime=1633563015713>
