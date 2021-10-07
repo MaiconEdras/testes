@@ -1,0 +1,52 @@
+Ação 1:
+1) Preencher o campo CPF com número de CPF válido
+2) Preencher o campo senha com a senha referente ao usuário do CPF informado
+3) Pressionar o botão Enviar
+
+Resultado:
+Acessar o sistema.
+======================
+
+Ação 2:
+1) Insira um CPF Valido
+2) Deixe o campo senha vazio
+3) Aperte em enviar
+Resultado:
+Deve aparecer uma mensagem de SENHA é requerido.
+
+========================
+Ação 3:
+Clicar no botão “Enviar”
+
+Resultado:
+Deve mostrar a mensagem “Informe o seu CPF e a sua senha”
+======================
+
+Ação 4:
+Preencher o campo CPF com um número de CPF que não consta no banco de dados
+
+Resultado:
+Deve mostrar a mensagem informando que o CPF está incorreto ou não cadastrado.
+======================
+
+Ação 5:
+Clicar em "Não sou cadastrado"
+
+Resultado:
+Deve encaminhar para a página de recuperação de conta.
+======================
+
+Ação 6:
+Clicar em "Esqueci minha senha"
+
+Resultado:
+Deve encaminhar para a página de recuperação de senha.
+======================
+
+Ação 7:
+1) Preencher CPF válido;
+2) Preencher uma senha que não corresponde ao CPF cadastrado;
+3) Clicar no botão ENVIAR
+
+Resultado:
+Deve mostra mensagem “Senha incorreta”
